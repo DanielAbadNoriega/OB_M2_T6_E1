@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+button{
+  margin: 5px;
+  width: 150px;
+}
+
+button::after{
+  content: "Pasa por encima";
+}
+
+button:hover {
+  background-color: lightgreen;
+  color: white;
+  cursor: pointer;
+}
+
+button:active:after {
+  content: "!Hecho!";
+}
